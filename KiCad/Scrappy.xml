@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\dresi\Documents\Project_Archie\Electronics\NanoCarrier\Scrappy\Scrappy.sch</source>
+    <date>9/10/2021 11:43:57 AM</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Scrappy.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/5V_Reg/" tstamps="/613D21F8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>5V_Reg.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>1888687</value>
+      <footprint>SHDR2W90P0X508_1X2_1016X950X1500P</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/1888687.pdf</datasheet>
+      <fields>
+        <field name="Description">Phoenix Contact COMBICON MKDSN Series 5.08mm Pitch Straight PCB Terminal Block with Screw Termination, Through Hole</field>
+        <field name="Digi-Key Link">https://www.digikey.com/en/products/detail/phoenix-contact/1888687/2511093</field>
+        <field name="Mouser Part Number">651-1888687</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="1888687" description="Phoenix Contact COMBICON MKDSN Series 5.08mm Pitch Straight PCB Terminal Block with Screw Termination, Through Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613DE00D</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>2-215309-0</value>
+      <footprint>TE_2-215309-0</footprint>
+      <fields>
+        <field name="Comment">2-215309-0</field>
+        <field name="Digi-Key Link">https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/2-215309-0/2278517</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="2-215309-0" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613E71D7</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>TSSA3U45 R3G</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MBRA340T3-D.PDF</datasheet>
+      <fields>
+        <field name="Digi-Key Link">https://www.digikey.com/en/products/detail/taiwan-semiconductor-corporation/TSSA3U45-R3G/7360717?s=N4IgTCBcDaICoGUEEEDMBVALAVgAQCVUBxEAXQF8g</field>
+      </fields>
+      <libsource lib="Diode" part="MBRA340" description="40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"/>
+      <sheetpath names="/5V_Reg/" tstamps="/613D21F8/"/>
+      <tstamp>613A871A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf</datasheet>
+      <fields>
+        <field name="Description">TDK 0603 CGA 100nF Ceramic Multilayer Capacitor, 25 V dc, +125C, X7R Dielectric, +/-10%</field>
+        <field name="Digi-Key Link">https://www.digikey.com/en/products/detail/tdk-corporation/CGA3E2X7R1E104K080AA/2443145</field>
+        <field name="Digi-Key Part Number">445-5667-1-ND</field>
+        <field name="Height">0.9</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CGA3E2X7R1E104K080AA" description="TDK 0603 CGA 100nF Ceramic Multilayer Capacitor, 25 V dc, +125C, X7R Dielectric, +/-10%"/>
+      <sheetpath names="/5V_Reg/" tstamps="/613D21F8/"/>
+      <tstamp>613BF939</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>470uF</value>
+      <footprint>CAPPRD525W60D1025H1750</footprint>
+      <datasheet>https://www.cde.com/resources/catalogs/CKR_CKS.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP ALUM 470UF 20% 35V RADIAL</field>
+        <field name="Digi-Key Link">https://www.digikey.com/en/products/detail/illinois-capacitor/477CKS035M/5344082</field>
+        <field name="Digi-Key Part Number">1572-1152-ND</field>
+        <field name="Height">17.5</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="477CKS035M" description="Aluminum Electrolytic Capacitors - Radial Leaded 470uF 35V 20%"/>
+      <sheetpath names="/5V_Reg/" tstamps="/613D21F8/"/>
+      <tstamp>613C361F</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>47uH</value>
+      <footprint>INDPM110100X400N</footprint>
+      <fields>
+        <field name="Description">Inductor SMD shielded AEC-Q200 47uH Bourns SRP1038A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 47 uH 20% 3A Idc</field>
+        <field name="Digi-Key Link">https://www.digikey.com/en/products/detail/bourns-inc/SRP1038A-470M/4876849</field>
+        <field name="Digi-Key Part Number">SRP1038A-470M</field>
+        <field name="Height">4</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="SRP1038A-470M" description="Inductor SMD shielded AEC-Q200 47uH Bourns SRP1038A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 47 uH 20% 3A Idc"/>
+      <sheetpath names="/5V_Reg/" tstamps="/613D21F8/"/>
+      <tstamp>613C4D09</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>TS2596CM550_RNG</value>
+      <footprint>TS2596CM550RNG</footprint>
+      <datasheet>https://www.taiwansemi.com/products/datasheet/TS2596_G1608.pdf</datasheet>
+      <fields>
+        <field name="Description">Switching Voltage Regulators 5.0V 3.0A</field>
+        <field name="Height">4.85</field>
+        <field name="Manufacturer_Name">Taiwan Semiconductor</field>
+        <field name="Manufacturer_Part_Number">TS2596CM550 RNG</field>
+        <field name="Mouser Part Number">821-TS2596CM550RNG</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Taiwan-Semiconductor/TS2596CM550-RNG?qs=QEzMiVqgwc1IpOivVc2Ydw%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="TS2596CM550_RNG" description="Switching Voltage Regulators 5.0V 3.0A"/>
+      <sheetpath names="/5V_Reg/" tstamps="/613D21F8/"/>
+      <tstamp>613C5862</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>470uF</value>
+      <footprint>CAPPRD525W60D1025H1750</footprint>
+      <datasheet>https://www.cde.com/resources/catalogs/CKR_CKS.pdf</datasheet>
+      <fields>
+        <field name="Description">CAP ALUM 470UF 20% 35V RADIAL</field>
+        <field name="Digi-Key Link">https://www.digikey.com/en/products/detail/illinois-capacitor/477CKS035M/5344082</field>
+        <field name="Digi-Key Part Number">1572-1152-ND</field>
+        <field name="Height">17.5</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="477CKS035M" description="Aluminum Electrolytic Capacitors - Radial Leaded 470uF 35V 20%"/>
+      <sheetpath names="/5V_Reg/" tstamps="/613D21F8/"/>
+      <tstamp>613CC4DB</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>CAPC1608X90N</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_automotive_general_en.pdf</datasheet>
+      <fields>
+        <field name="Description">TDK 0603 CGA 100nF Ceramic Multilayer Capacitor, 25 V dc, +125C, X7R Dielectric, +/-10%</field>
+        <field name="Digi-Key Link">https://www.digikey.com/en/products/detail/tdk-corporation/CGA3E2X7R1E104K080AA/2443145</field>
+        <field name="Digi-Key Part Number">445-5667-1-ND</field>
+        <field name="Height">0.9</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CGA3E2X7R1E104K080AA" description="TDK 0603 CGA 100nF Ceramic Multilayer Capacitor, 25 V dc, +125C, X7R Dielectric, +/-10%"/>
+      <sheetpath names="/5V_Reg/" tstamps="/613D21F8/"/>
+      <tstamp>613CF5F2</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Diode" part="B120-E3">
+      <aliases>
+        <alias>B130-E3</alias>
+        <alias>B140-E3</alias>
+        <alias>B150-E3</alias>
+        <alias>B160-E3</alias>
+        <alias>MBRA340</alias>
+      </aliases>
+      <description>20V 1A Schottky Barrier Rectifier Diode, SMA(DO-214AC)</description>
+      <docs>http://www.vishay.com/docs/88946/b120.pdf</docs>
+      <footprints>
+        <fp>D*SMA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">B120-E3</field>
+        <field name="Footprint">Diode_SMD:D_SMA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="1888687">
+      <description>Phoenix Contact COMBICON MKDSN Series 5.08mm Pitch Straight PCB Terminal Block with Screw Termination, Through Hole</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/1888687.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">1888687</field>
+        <field name="Footprint">SHDR2W90P0X508_1X2_1016X950X1500P</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/1888687.pdf</field>
+        <field name="Description">Phoenix Contact COMBICON MKDSN Series 5.08mm Pitch Straight PCB Terminal Block with Screw Termination, Through Hole</field>
+        <field name="Mouser Part Number">651-1888687</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1888687?qs=WkwC2s7FYclvnmWQ78YNzQ%3D%3D</field>
+        <field name="Manufacturer_Name">Phoenix Contact</field>
+        <field name="Manufacturer_Part_Number">1888687</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="2-215309-0">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">2-215309-0</field>
+        <field name="Footprint">TE_2-215309-0</field>
+        <field name="Comment">2-215309-0</field>
+        <field name="EU_RoHS_Compliance">Compliant</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="32" type="passive"/>
+        <pin num="33" name="33" type="passive"/>
+        <pin num="34" name="34" type="passive"/>
+        <pin num="35" name="35" type="passive"/>
+        <pin num="36" name="36" type="passive"/>
+        <pin num="37" name="37" type="passive"/>
+        <pin num="38" name="38" type="passive"/>
+        <pin num="39" name="39" type="passive"/>
+        <pin num="40" name="40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="477CKS035M">
+      <description>Aluminum Electrolytic Capacitors - Radial Leaded 470uF 35V 20%</description>
+      <docs>https://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">477CKS035M</field>
+        <field name="Footprint">CAPPRD525W60D1025H1750</field>
+        <field name="Datasheet">https://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf</field>
+        <field name="Description">Aluminum Electrolytic Capacitors - Radial Leaded 470uF 35V 20%</field>
+        <field name="Height">17.5</field>
+        <field name="Mouser Part Number">598-477CKS035M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Cornell-Dubilier-CDE/477CKS035M?qs=3tP%252BN51vMXc6VM4hNZ8T1w%3D%3D</field>
+        <field name="Manufacturer_Name">Cornell Dubilier</field>
+        <field name="Manufacturer_Part_Number">477CKS035M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="CGA3E2X7R1E104K080AA">
+      <description>TDK 0603 CGA 100nF Ceramic Multilayer Capacitor, 25 V dc, +125C, X7R Dielectric, +/-10%</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CGA3E2X7R1E104K080AA</field>
+        <field name="Footprint">CAPC1608X90N</field>
+        <field name="Description">TDK 0603 CGA 100nF Ceramic Multilayer Capacitor, 25 V dc, +125C, X7R Dielectric, +/-10%</field>
+        <field name="Height">0.9</field>
+        <field name="Mouser Part Number">810-CGA3E2X7R1E104K</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/CGA3E2X7R1E104K080AA?qs=NRhsANhppD%2Fm7%2FOmmsm0vg%3D%3D</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">CGA3E2X7R1E104K080AA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="SRP1038A-470M">
+      <description>Inductor SMD shielded AEC-Q200 47uH Bourns SRP1038A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 47 uH 20% 3A Idc</description>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">SRP1038A-470M</field>
+        <field name="Footprint">INDPM110100X400N</field>
+        <field name="Description">Inductor SMD shielded AEC-Q200 47uH Bourns SRP1038A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 47 uH 20% 3A Idc</field>
+        <field name="Height">4</field>
+        <field name="Mouser Part Number">652-SRP1038A-470M</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Bourns/SRP1038A-470M?qs=7z%252BmIopC6%2FIYdOPqRphsog%3D%3D</field>
+        <field name="Manufacturer_Name">Bourns</field>
+        <field name="Manufacturer_Part_Number">SRP1038A-470M</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="TS2596CM550_RNG">
+      <description>Switching Voltage Regulators 5.0V 3.0A</description>
+      <docs>https://www.taiwansemi.com/products/datasheet/TS2596_G1608.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TS2596CM550_RNG</field>
+        <field name="Footprint">TS2596CM550RNG</field>
+        <field name="Datasheet">https://www.taiwansemi.com/products/datasheet/TS2596_G1608.pdf</field>
+        <field name="Description">Switching Voltage Regulators 5.0V 3.0A</field>
+        <field name="Height">4.85</field>
+        <field name="Mouser Part Number">821-TS2596CM550RNG</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Taiwan-Semiconductor/TS2596CM550-RNG?qs=QEzMiVqgwc1IpOivVc2Ydw%3D%3D</field>
+        <field name="Manufacturer_Name">Taiwan Semiconductor</field>
+        <field name="Manufacturer_Part_Number">TS2596CM550 RNG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INPUT" type="passive"/>
+        <pin num="2" name="SW_OUTPUT" type="passive"/>
+        <pin num="3" name="GROUND_1" type="passive"/>
+        <pin num="4" name="_FEEDBACK" type="passive"/>
+        <pin num="5" name="ENABLE" type="passive"/>
+        <pin num="6" name="GROUND_2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>C:\SamacSys_PCB_Library\KiCad\SamacSys_Parts.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/5V_Reg/V_Out">
+      <node ref="C3" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="3" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="5" name="Net-(J2-Pad40)">
+      <node ref="J2" pin="40"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="J2" pin="30"/>
+      <node ref="J2" pin="25"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="14"/>
+      <node ref="J2" pin="39"/>
+      <node ref="J2" pin="9"/>
+      <node ref="J2" pin="6"/>
+      <node ref="J2" pin="20"/>
+      <node ref="J2" pin="34"/>
+    </net>
+    <net code="7" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="8" name="Net-(J2-Pad19)">
+      <node ref="J2" pin="19"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad18)">
+      <node ref="J2" pin="18"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad17)">
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="11" name="Net-(J2-Pad16)">
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad15)">
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad13)">
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="14" name="Net-(J2-Pad12)">
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="15" name="Net-(J2-Pad11)">
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="16" name="Net-(J2-Pad10)">
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="17" name="Net-(J2-Pad37)">
+      <node ref="J2" pin="37"/>
+    </net>
+    <net code="18" name="/5V_Reg/V_In">
+      <node ref="J1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(J2-Pad38)">
+      <node ref="J2" pin="38"/>
+    </net>
+    <net code="20" name="Net-(J2-Pad36)">
+      <node ref="J2" pin="36"/>
+    </net>
+    <net code="21" name="Net-(J2-Pad35)">
+      <node ref="J2" pin="35"/>
+    </net>
+    <net code="22" name="Net-(J2-Pad33)">
+      <node ref="J2" pin="33"/>
+    </net>
+    <net code="23" name="Net-(J2-Pad32)">
+      <node ref="J2" pin="32"/>
+    </net>
+    <net code="24" name="Net-(J2-Pad31)">
+      <node ref="J2" pin="31"/>
+    </net>
+    <net code="25" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="26" name="Net-(J2-Pad28)">
+      <node ref="J2" pin="28"/>
+    </net>
+    <net code="27" name="Net-(J2-Pad29)">
+      <node ref="J2" pin="29"/>
+    </net>
+    <net code="28" name="Net-(J2-Pad21)">
+      <node ref="J2" pin="21"/>
+    </net>
+    <net code="29" name="Net-(J2-Pad22)">
+      <node ref="J2" pin="22"/>
+    </net>
+    <net code="30" name="Net-(J2-Pad23)">
+      <node ref="J2" pin="23"/>
+    </net>
+    <net code="31" name="Net-(J2-Pad24)">
+      <node ref="J2" pin="24"/>
+    </net>
+    <net code="32" name="Net-(J2-Pad26)">
+      <node ref="J2" pin="26"/>
+    </net>
+    <net code="33" name="Net-(J2-Pad27)">
+      <node ref="J2" pin="27"/>
+    </net>
+    <net code="34" name="Net-(D1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="D1" pin="1"/>
+    </net>
+  </nets>
+</export>

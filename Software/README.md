@@ -1,0 +1,1 @@
+This folder stores all of the software to run the robot. The catkin_ws folder can be coppied into any computer that runs ROS, and be compiled.
