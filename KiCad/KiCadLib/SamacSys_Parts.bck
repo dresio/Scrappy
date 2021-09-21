@@ -1,39 +1,35 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP NE555DR
-D Single Precision Timer
-K
-F http://www.ti.com/lit/ds/symlink/ne555.pdf
-$ENDCMP
-#
-$CMP TS2596CM550_RNG
-D Switching Voltage Regulators 5.0V 3.0A
-K
-F https://www.taiwansemi.com/products/datasheet/TS2596_G1608.pdf
-$ENDCMP
-#
-$CMP SRP1038A-470M
-D Inductor SMD shielded AEC-Q200 47uH Bourns SRP1038A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 47 uH 20% 3A Idc
-K
-F 
+$CMP 1888687
+D Phoenix Contact COMBICON MKDSN Series 5.08mm Pitch Straight PCB Terminal Block with Screw Termination, Through Hole
+F https://componentsearchengine.com/Datasheets/1/1888687.pdf
 $ENDCMP
 #
 $CMP 477CKS035M
 D Aluminum Electrolytic Capacitors - Radial Leaded 470uF 35V 20%
-K
 F https://www.illinoiscapacitor.com/pdf/seriesDocuments/CKR_CKS%20series.pdf
 $ENDCMP
 #
 $CMP CGA3E2X7R1E104K080AA
 D TDK 0603 CGA 100nF Ceramic Multilayer Capacitor, 25 V dc, +125C, X7R Dielectric, +/-10%
-K
-F 
 $ENDCMP
 #
-$CMP 1888687
-D Phoenix Contact COMBICON MKDSN Series 5.08mm Pitch Straight PCB Terminal Block with Screw Termination, Through Hole
-K
-F https://componentsearchengine.com/Datasheets/1/1888687.pdf
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP SRP1038A-470M
+D Inductor SMD shielded AEC-Q200 47uH Bourns SRP1038A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 47 uH 20% 3A Idc
+$ENDCMP
+#
+$CMP Stepper-1182
+D Socketable Stepper Motor Driver
+$ENDCMP
+#
+$CMP TS2596CM550_RNG
+D Switching Voltage Regulators 5.0V 3.0A
+F https://www.taiwansemi.com/products/datasheet/TS2596_G1608.pdf
 $ENDCMP
 #
 #End Doc Library

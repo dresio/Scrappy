@@ -23,6 +23,10 @@ $CMP SRP1038A-470M
 D Inductor SMD shielded AEC-Q200 47uH Bourns SRP1038A Series Shielded Wire-wound SMD Inductor with a Carbonyl Powder Core, 47 uH 20% 3A Idc
 $ENDCMP
 #
+$CMP Stepper-1182
+D Socketable Stepper Motor Driver
+$ENDCMP
+#
 $CMP TS2596CM550_RNG
 D Switching Voltage Regulators 5.0V 3.0A
 F https://www.taiwansemi.com/products/datasheet/TS2596_G1608.pdf
