@@ -1,9 +1,33 @@
 # About
-This folder stores all of the software to run the robot. The catkin_ws folder can be coppied into any computer that runs ROS, and be compiled.
+This folder stores all of the software to run the robot. The goal of this is to work as a zero copy node framework that allows nodes to comunicate through pointers in memory. This is done to take full advantage of the powerful gpu units in the jetson product line, without overwheleming the cpu.  
+
+# Roadmap
+## Scrappy_Core
+This will contain data communcation general code. This allows it to work across threads, and it will have a known part of data that the core listens to to map out data, create new topics, and assign general information.   
+Currently, it is supporting data transfer in CPU, however work will be done to allow for gpu data transfer also to allow for more timely vision processing.  
+## Vision_Processing
+This will contain the code to open and publish camera data, and will be working on a april tag module along with slam, and facial recognition modules
+## Navigation
+This has not been started, but will hold code to fuse input data such as IMU, SLAM, and dead reckoning data and output maps and odometry  
+## Hardware
+This module will contain hardware interfaces to sensors and acuators publish data. Camera interface will most likely move here eventually
+## Controls
+This module will contain customizable PID controllers, and maybe more advanced sliding mode and other controllers
+## Allocation
+This module will define how acuators are placed around the vehicle to properly drive the based on control input
 
 # Install Instructions:
+## Misc Dependencies
+```
+sudo apt-get install libboost-all-dev
+```
+
 ## OpenCV
 ```
+#Download prerequisites:
+sudo apt-get install libgtk2.0-dev libgtk-3-dev pkg-config
+sudo apt-get install 
+
 #Downloading files  
 cd ~  
 wget -O opencv.zip https://github.com/opencv/opencv/archive/4.5.1.zip  
