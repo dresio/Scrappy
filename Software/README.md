@@ -1,6 +1,11 @@
 # About
 This folder stores all of the software to run the robot. The goal of this is to work as a zero copy node framework that allows nodes to comunicate through pointers in memory. This is done to take full advantage of the powerful gpu units in the jetson product line, without overwheleming the cpu.  
 
+# How to use
+## Scrappy_Core
+This contains the main data transport, heartbeat, timings, and other key features required to run a robot. The main thing that will need to be modified case by case is the data transport. 
+The msgs folder contains all message names and format for storing data
+
 # Roadmap
 ## Scrappy_Core
 This will contain data communcation general code. This allows it to work across threads, and it will have a known part of data that the core listens to to map out data, create new topics, and assign general information.   
