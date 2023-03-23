@@ -1,10 +1,53 @@
-#include <boost/interprocess/shared_memory_object.hpp>
-#include <boost/interprocess/mapped_region.hpp>
-#include <chrono>
-#include <thread>
-#include <iostream>
+#include "DataTransport.h"
 
-using namespace std;
+template <typename MessageType>
+DataTransport<MessageType>::DataTransport(const string& topicName, TransportType direction)
+{
+    boost::interprocess::mode_t permissions;
+    // Create or open the shared memory object
+    if(direction == TransportType::PUB)
+    {
+        permissions = boost::interprocess::read_write;
+    } 
+    else
+    {
+        permissions = boost::interprocess::read_only;
+    }
+
+    shm = boost::interprocess::shared_memory_object(boost::interprocess::open_or_create, topicName.c_str(), permissions);
+
+    // Set the size of the shared memory object
+    shm.truncate(sizeof(MessageType));
+
+    // Map the shared memory object to a mapped region
+    region = boost::interprocess::mapped_region(shm, permissions);
+}
+
+template <typename MessageType>
+DataTransport<MessageType>::~DataTransport()
+{
+    // When you're done with the shared memory, unmap the region and release the object
+    boost::interprocess::shared_memory_object::remove(shm.get_name());
+}
+
+template <typename MessageType>
+MessageType DataTransport<MessageType>::get_data()
+{
+    // Get a pointer to the mapped region
+    MessageType* message = static_cast<MessageType*>(region.get_address());
+
+    return *message;
+}
+
+template <typename MessageType>
+void DataTransport<MessageType>::set_data(MessageType message)
+{
+    // Get a pointer to the mapped region
+    MessageType* messagePtr = static_cast<MessageType*>(region.get_address());
+
+    *messagePtr = message;
+}
+
 
 int main()
 {
