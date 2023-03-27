@@ -22,9 +22,21 @@ This module will contain customizable PID controllers, and maybe more advanced s
 This module will define how acuators are placed around the vehicle to properly drive the based on control input
 
 # Install Instructions:
-## Misc Dependencies
+## Boost  
+Option 1:
 ```
-sudo apt-get install libboost-all-dev
+sudo apt install libboost-all-dev
+```
+
+Option 2:
+```
+cd ~
+wget https://boostorg.jfrog.io/artifactory/main/release/1.68.0/source/boost_1_68_0.tar.bz2
+tar -xjf boost_1_68_0.tar.bz2
+rm boost_1_68_0.tar.bz2
+cd boost_1_68_0
+./bootstrap.sh --prefix=/usr/local
+sudo ./b2 install
 ```
 
 ## OpenCV
